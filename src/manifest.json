@@ -1,0 +1,23 @@
+{
+  "name": "com-sabre-redappexample-web-module",
+  "redAppId": "n/a",
+  "bundleSymbolicName": "com.sabre.redappexample",
+  "bundleName": "Red App Example",
+  "contactDetails": {
+    "author": "Charlie",
+    "email": "carlos.pereira@sabre.com",
+    "phoneNumber": "098716142",
+    "company": "Sabre Uruguay",
+    "contactName": "Charlie",
+    "website": "www.sabre.com"
+  },
+  "extensions": {
+    "dynamo_air-pricing:BeforePricing": [
+      {
+        "services": [
+          "com-sabre-redappexample-web-module-BeforeAirPrice"
+        ]
+      }
+    ]
+  }
+}

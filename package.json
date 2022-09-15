@@ -1,0 +1,25 @@
+{
+  "name": "com-sabre-redappexample-web-module-src",
+  "version": "1.0.0",
+  "description": "NGV module",
+  "author": {
+    "name": "Charlie"
+  },
+  "contributors": [],
+  "private": true,
+  "license": "LicenseRef-LICENSE",
+  "dependencies": {},
+  "devDependencies": {},
+  "optionalDependencies": {},
+  "ngv": {
+    "buildDependencies": {
+      "sabre-ngv-app": "*",
+      "sabre-ngv-core": "*",
+      "sabre-ngv-extensionPoints": "*",
+      "sabre-ngv-pos-cdm":"*",
+      "sabre-ngv-redAppSidePanel": "*",
+      "sabre-ngv-xp": "*"
+    },
+    "concierge_version_min": "6.1.0"
+  }
+}
